@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Ashli Acosta">
+    <meta name="description" content="Portafolio de desarrollo web de Ashli Acostaa">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Ashli Acosta | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/desarrollo-de-software.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <!--<img src="imagenes/nomada-digital.png" width="50" alt="Logo" style="background">-->
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi" style="color: white;">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos" style="color: white;">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios" style="color: white;">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto" style="color: white;" >Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/ash.jpg" alt="Foto de Ashli Acosta">
+        <h1>Ashli Acosta Martínez</h1>
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+        <h2 style="font-family: Consolas;">He completado con éxito los tres primeros semestres en la universidad, adquiriendo habilidades y conocimientos valiosos en áreas como programación, bases de datos, diseño de Interfaz grafica(FrontEnd), entre otros.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img  width="400" height="400" src="imagenes/portadaa.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+      
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Ashli Acosta</h2>
+        <p class="seccion-texto" style="font-family: Consolas;">Como estudiante de ingeniería en software y sistemas computacionales, tengo habilidades en programción y un buen entendimiento de las tecnologías más utilizadas en la industria. También tengo gran potencial para resolver problemas complejos y trabajar en equipo. Algunos de mis logros académicos incluyen notas sobresalientes en materias como máticamitcas etc.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo" style="font-family: Consolas;">Objetivo</p>
+            <p style="font-family: Consolas;">Como futura ingeniera en software, mi objetivo es adquirir las habilidades necesarias para crear soluciones innovadoras y eficientes que resuelvan problemas del mundo real.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary" style="font-family: Consolas;">HTML</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">React</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Servidores</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Redes y Ruteo</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo" style="font-family: Consolas;">Colaboraciones</p>
+            <p style="font-family: Consolas;">Deseo colaborar en proyectos de software a gran escala para lograr aprender más y tener un impacto significativo en la industria de la tecnológica.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Comunicación efectiva</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Resolución de problemas</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Pensamiento crítico</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo" style="font-family: Consolas;">Estudiante</p>
+            <p style="font-family: Consolas;">Soy una estudiante apasionada y dedicada con un gran potencial paera el éxito en mi carrera futura. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Programación</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Desarrollo Web</span>
+              <span class="badge text-bg-primary" style="font-family: Consolas;">Bases de datos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion" style="font-family: Consolas;">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p style="font-family: Consolas;">Proyecto 1</p>
+                <p style="font-family: Consolas;">Inicio de Curso</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Ashliac/Proyecto1.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://ashliac.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p style="font-family: Consolas;">Proyecto 2</p>
+                <p style="font-family: Consolas;">Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p style="font-family: Consolas;">Proyecto 3</p>
+                <p style="font-family: Consolas;">Página sobre mí</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Ashliac/Ashliac.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://ashliac.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info" style="font-family: Consolas;">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro" style="font-family: Consolas;">Artículos</h2>
+      <div class="card">
+        <div class="card-header" style="font-family: Consolas;">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://blogthinkbig.com/que-es-una-api" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item" style="font-family: Consolas;">
+              Qué es una API, para qué sirve y cómo puedes aprovecharla
+            </li>
+          </a>
+          <a href="https://blogthinkbig.com/alternativas-github-hospedar-software" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item" style="font-family: Consolas;">
+              Alternativas gratuitas a GitHub para hospedar tu software
+            </li>
+          </a>
+          <a href="https://blogthinkbig.com/aprende-a-utilizar-photoshop-desde-cero" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item" style="font-family: Consolas;">
+              Aprende a utilizar Photoshop desde cero
+            </li>
+          </a>
+          <a href="https://blogthinkbig.com/app-outlet-tienda-apps-universal-linux" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item" style="font-family: Consolas;">
+              App Outlet, la tienda de apps universal para Linux
+            </li>
+          </a>
+          <a href="https://blogthinkbig.com/cuales-son-las-caracteristicas-de-la-nueva-gama-mate-30-de-huawei" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item" style="font-family: Consolas;">
+              ¿Cuáles son las características de la nueva serie Mate 30 de Huawei?
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://blogthinkbig.com/tag/software" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info" style="font-family: Consolas;">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion" style="font-family: Consolas;">Estos son algunos testimonios de mis compañeros...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/mujer.png" alt="Foto de Gino">
+              <p class="testimonio-texto" style="font-family: Consolas;">Es una estudiante muy comprometida con su carrera. Siempre llega a tiempo a clase y se preocupa por tener un buen desempeño en todas las tareas y proyectos que se nos asignan. Además, es muy colaborativa y siempre está dispuesta a ayudar a sus compañeros cuando tienen dudas o dificultades.</p>
+              <div class="testimonio-info">
+                <p class="cliente" style="font-family: Consolas;">Sofia</p>
+                <p class="cargo" style="font-family: Consolas;">Compañera de Carrera</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/hombre.png" alt="Foto de Nora">
+              <p class="testimonio-texto" style="font-family: Consolas;">Tiene una habilidad impresionante para resolver problemas complicados y siempre aporta ideas innovadoras en los proyectos de equipo. Además, es muy organizado y trabaja con mucha disciplina, lo que lo convierte en un gran ejemplo para el resto de nosotros.</p>
+              <div class="testimonio-info">
+                <p class="cliente" style="font-family: Consolas;">Jorge</p>
+                <p class="cargo" style="font-family: Consolas;">Compañero de Carrera</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/mujer (1).png" alt="Foto de Leonardo">
+              <p class="testimonio-texto" style="font-family: Consolas;">Es una persona muy amable y simpática. Siempre se muestra dispuesta a escuchar y a apoyar a sus compañeros cuando lo necesitan. En el aula, es muy participativa y siempre tiene algo interesante que decir en las discusiones y debates.</p>
+              <div class="testimonio-info">
+                <p class="cliente" style="font-family: Consolas;">Alejandra</p>
+                <p class="cargo" style="font-family: Consolas;">Compañera de Carrera</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion" style="font-family: Consolas;">
+              En este sitio, encontrarás información sobre mí y mis proyectos, así como también artículos y recursos sobre temas relacionados con la ingeniería de software y sistemas computacionales.
+              <br>¡Gracias por visitar mi sitio web y espero que disfrutes explorando todo lo que tengo para ofrecer!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button" style="font-family: Consolas;">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/desarrollador-de-software (1).png" alt="Logo del portafolio">
+      <p class="footer-texto text-center" style="font-family: Consolas;">"La creatividad es la inteligencia divirtiéndose".<br>-Albert Einstein</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/AamAshli" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ashli-acosta-martinez-0657a9273/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/aco_ashli/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:ashliac.aam@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor" style="font-family: Consolas;">Creado por Ashli Acosta (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
